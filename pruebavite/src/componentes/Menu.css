@@ -1,0 +1,14 @@
+ul{
+  background-color: aliceblue;
+  border-bottom: none ;
+  border: 5px  groove aliceblue !important;
+}
+
+a{
+  color: black !important;
+}
+
+a.nav-link:hover{
+  background-color: grey;
+}
+
