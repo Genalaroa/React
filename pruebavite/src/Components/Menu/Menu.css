@@ -1,11 +1,13 @@
 ul{
-  background-color: aliceblue;
+  
   border-bottom: none ;
   border: 5px  groove aliceblue !important;
 }
 
 a{
-  color: black !important;
+  color: #FF6600 !important;
+  font-family: 'Fredoka', sans-serif;
+  font-size: 30px;
 }
 
 a.nav-link:hover{

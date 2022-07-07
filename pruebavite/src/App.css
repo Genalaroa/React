@@ -1,3 +1,8 @@
+*{
+  background-color: #A9E641;
+  
+}
+
 .App {
   text-align: center;
 }
@@ -39,4 +44,12 @@
 
 button {
   font-size: calc(10px + 2vmin);
+}
+
+img{
+  width: 300px;
+  height: 300px;
+  margin: 40px;
+  border: #282c34 10px double;
+  text-align: center;
 }
