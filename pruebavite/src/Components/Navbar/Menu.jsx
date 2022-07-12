@@ -3,10 +3,11 @@ import './Menu.css'
 
 
 
+
 const Menu = (props) => {
   return(
     <div>
-    <ul className="nav justify-content-center">
+        <ul className="nav justify-content-center">
         <li className="nav-item">
           <a className="nav-link" href="#"  onClick={props.construccion}>Piedra, papel o tijera</a>
         </li>

@@ -53,3 +53,12 @@ img{
   border: #282c34 10px double;
   text-align: center;
 }
+
+#logo{
+  width: 71px;
+  height: 71px;
+  position: absolute;
+  /* margin: 0px; */
+  display: flex;
+  margin: 0px;
+}

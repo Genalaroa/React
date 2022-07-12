@@ -1,14 +1,23 @@
 
 import './App.css'
-import Menu from './Components/Menu/Menu'
+import Menu from './Components/Navbar/Menu'
 import Titulo from './Components/Titulo/Titulo'
 import Piedra from './Imagenes/Ppt.png'
 import tetris from './Imagenes/tetris.png'
 import snake from './Imagenes/snake.png'
 import laser from './Imagenes/lasership.png'
+import logo from'./Imagenes/logo.png'
 
 const construccion = () =>{
   alert('En estos momentos estamos en construccion')
+}
+
+const Logo =() =>{
+  return (
+    <div >
+    <img src={logo} id='logo'/>
+    </div>
+  )
 }
 
 const Ppt = () =>{
@@ -52,6 +61,7 @@ function App() {
 
   return (
     <div className="App">
+      <Logo/>
       <Menu/>
       <Titulo titulo= 'MUNDO ARCADE' subTitulo='Un torbellino de diversion'/>
       <Ppt/>  
