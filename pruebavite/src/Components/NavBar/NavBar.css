@@ -14,3 +14,15 @@ a.nav-link:hover{
   background-color: grey;
 }
 
+.logo{
+  width: 61px;
+  height: 61px;
+  position: absolute;
+  /* margin: 0px; */
+  display: flex;
+  margin: 0px;
+  margin-left: 100px;
+  margin-top: 5px;
+  border: none;
+}
+

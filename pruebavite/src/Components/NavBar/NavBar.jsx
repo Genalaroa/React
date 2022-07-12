@@ -1,11 +1,14 @@
-import React from "react";
-import './Menu.css'
+
+import './NavBar.css'
+import CartWidget from './CartWidgets'
 
 
 
-
-const Menu = (props) => {
+const NavBar = (props) => {
   return(
+
+    <>
+    <CartWidget/>
     <div>
         <ul className="nav justify-content-center">
         <li className="nav-item">
@@ -20,8 +23,13 @@ const Menu = (props) => {
         <li className="nav-item">
           <a className="nav-link" href="#"  onClick={props.construccion}>Laser</a>
         </li>
-      </ul></div>
+      </ul>
+    </div>
+    </>
+    
+
+  
   )
 }
 
-export default Menu
+export default NavBar

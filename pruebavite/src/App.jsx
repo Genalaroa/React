@@ -1,24 +1,22 @@
 
-import './App.css'
-import Menu from './Components/Navbar/Menu'
+
+import NavBar from './Components/NavBar/NavBar'
 import Titulo from './Components/Titulo/Titulo'
-import Piedra from './Imagenes/Ppt.png'
-import tetris from './Imagenes/tetris.png'
-import snake from './Imagenes/snake.png'
-import laser from './Imagenes/lasership.png'
-import logo from'./Imagenes/logo.png'
+import Piedra from './images/Ppt.png'
+import tetris from './images/tetris.png'
+import snake from './images/snake.png'
+import laser from './images/lasership.png'
+
+
+//import './App.scss';
+import './App.css'
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 const construccion = () =>{
   alert('En estos momentos estamos en construccion')
 }
 
-const Logo =() =>{
-  return (
-    <div >
-    <img src={logo} id='logo'/>
-    </div>
-  )
-}
 
 const Ppt = () =>{
   return(
@@ -61,9 +59,11 @@ function App() {
 
   return (
     <div className="App">
-      <Logo/>
-      <Menu/>
+      
+      <NavBar />
+      
       <Titulo titulo= 'MUNDO ARCADE' subTitulo='Un torbellino de diversion'/>
+      
       <Ppt/>  
       <Tetris/>
       <Snake/>

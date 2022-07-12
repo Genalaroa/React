@@ -1,13 +1,13 @@
 import React from "react";
 import './Titulo.css';
 
-const Titulo = (props) => {
-  console.log(props)
+const Titulo = ({titulo, subTitulo}) => {
+  
   return(
     
     <>
-    <h1>{props.titulo}</h1> 
-    <h4> {props.subTitulo} </h4>
+    <h1>{titulo}</h1> 
+    <h4> {subTitulo} </h4>
     </>
     
 
