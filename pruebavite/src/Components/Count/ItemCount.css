@@ -1,8 +1,16 @@
 
 
+.botones{
+  margin-top: 40px !important;
+  justify-content: center;
+  text-align: center;
+  
+  
+  
+}
 .contador{
-  color: black;
-  background-color: aliceblue;;
+  color: #FF4000;
+  background-color: #2F2F42;
   font-size: 40px;
   display: flex;
   justify-content:center ;
@@ -14,18 +22,19 @@
 }
 
 .count{
-  color: black;
-  background-color: aliceblue;;
+  color: #FF4000;
+  background-color: #2F2F42;;
   font-size: 40px;
 }
 button{
-  background-color: aliceblue;;
+  background-color: #2F2F42;;
   border-style: none;
+  color: #FF4000;
 }
 
 .carrito{
-  color: black;
-  background-color: aliceblue;;
+  color: #FF4000;
+  background-color: #2F2F42;;
   font-size: 20px;
   display: flex;
   justify-content:center ;
@@ -37,10 +46,4 @@ button{
 
 }
 
-.botones{
-  width: 300px;
-  justify-content: center;
-  text-align: center;
-  display: flex;
-  
-}
+

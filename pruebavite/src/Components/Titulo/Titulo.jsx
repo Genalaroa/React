@@ -7,7 +7,7 @@ const Titulo = ({titulo, subTitulo}) => {
   return(
     
     <>
-    <h1>{titulo}</h1> 
+    <h1 className="titulo">{titulo}</h1> 
     <h4> {subTitulo} </h4>
     </>
     

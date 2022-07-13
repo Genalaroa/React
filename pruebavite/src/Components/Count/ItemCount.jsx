@@ -24,7 +24,7 @@ const Contador = () =>{
   
   return (
 
-  <div className="botones row ">
+  <div className="botones row col-2 offset-5 ">
     <div className="contador">
       <button disabled={count <=1} onClick={Disminuir}>-</button>
       <span className="count">{count}</span>
