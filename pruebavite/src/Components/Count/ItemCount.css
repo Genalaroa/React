@@ -1,0 +1,46 @@
+
+
+.contador{
+  color: black;
+  background-color: aliceblue;;
+  font-size: 40px;
+  display: flex;
+  justify-content:center ;
+  align-items: center;
+  border: solid 5px white;
+  border-radius: 10px;
+  width: 300px;
+  justify-content: space-around;
+}
+
+.count{
+  color: black;
+  background-color: aliceblue;;
+  font-size: 40px;
+}
+button{
+  background-color: aliceblue;;
+  border-style: none;
+}
+
+.carrito{
+  color: black;
+  background-color: aliceblue;;
+  font-size: 20px;
+  display: flex;
+  justify-content:center ;
+  align-items: center;
+  border: solid 5px white;
+  border-radius: 10px;
+  width: 200px;
+  justify-content: space-around;
+
+}
+
+.botones{
+  width: 300px;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  
+}

@@ -3,7 +3,7 @@
 import NavBar from './Components/NavBar/NavBar'
 import Titulo from './Components/Titulo/Titulo'
 import ItemListContainer from './Containers/ItemListContainers/ItemListContainer';
-import Contador from './Components/Contador/Count';
+import Contador from './Components/Count/ItemCount';
 
 
 
