@@ -1,13 +1,15 @@
+
 ul{
-  
+  background-color: #434354;
   border-bottom: none ;
-  border: 5px  groove aliceblue !important;
+  border: 5px  groove #BEBEC1 !important;
 }
 
 a{
-  color: #FF6600 !important;
+  color: #FF4000 !important;
   font-family: 'Fredoka', sans-serif;
   font-size: 30px;
+  background-color: #434354;
 }
 
 a.nav-link:hover{
@@ -15,6 +17,7 @@ a.nav-link:hover{
 }
 
 .logo{
+  background-color: #434354;
   width: 61px;
   height: 61px;
   position: absolute;
