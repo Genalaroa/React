@@ -7,41 +7,40 @@
   
   
   
+  
 }
 .contador{
   color: #FF4000;
   background-color: #434354;
-  font-size: 40px;
+  font-size: 25px;
   display: flex;
-  justify-content:center ;
   align-items: center;
-  border: solid 5px #BEBEC1;
+  border: solid 3px #BEBEC1;
   border-radius: 10px;
-  width: 300px;
   justify-content: space-around;
 }
 
 .count{
   color: #FF4000;
   background-color: #434354;;
-  font-size: 40px;
+  font-size: 25px;
 }
 button{
   background-color: #434354;;
   border-style: none;
   color: #FF4000;
+  font-size: 15px;
 }
 
 .carrito{
   color: #FF4000;
   background-color: #434354;;
-  font-size: 20px;
+  font-size: 25px !important;
   display: flex;
   justify-content:center ;
   align-items: center;
-  border: solid 5px #BEBEC1;
+  border: solid 3px #BEBEC1;
   border-radius: 10px;
-  width: 200px;
   justify-content: space-around;
 
 }
