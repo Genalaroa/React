@@ -1,12 +1,12 @@
-import Logo from '../../images/logo.png'
+import React from 'react'
+import Shop from '../../images/Shop.png'
 
-
-const CartWidget = () =>{
-  return(
+function CartWidgets() {
+  return (
     <div>
-       <img src={Logo} className='logo' />
+      <img src={Shop} className='shop ' align="right"/>
     </div>
   )
 }
 
-export default CartWidget
+export default CartWidgets

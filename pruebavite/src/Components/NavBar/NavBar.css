@@ -1,8 +1,9 @@
 
-ul{
+.menu{
   background-color: #434354;
   border-bottom: none ;
   border: 5px  groove #BEBEC1 !important;
+  margin-left: inherit !important;
 }
 
 a{
@@ -10,6 +11,7 @@ a{
   font-family: 'Fredoka', sans-serif;
   font-size: 30px;
   background-color: #434354;
+  justify-content: center;
 }
 
 a.nav-link:hover{
@@ -21,11 +23,21 @@ a.nav-link:hover{
   width: 61px;
   height: 61px;
   position: absolute;
-  /* margin: 0px; */
   display: flex;
   margin: 0px;
   margin-left: 100px;
-  margin-top: 5px;
+
   border: none;
+}
+
+.shop{
+  background-color: #434354;
+  justify-content: right;
+  align-items: flex-end;
+  width: 69px;
+  height: 61px;
+  margin: 0px;
+  border: none;
+  margin-top: -61px;
 }
 

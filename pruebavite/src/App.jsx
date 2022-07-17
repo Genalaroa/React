@@ -11,7 +11,7 @@ import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
-const construccion = () =>{
+const construccion = (props) =>{
   alert('En estos momentos estamos en construccion')
 };
 console.log (construccion)
