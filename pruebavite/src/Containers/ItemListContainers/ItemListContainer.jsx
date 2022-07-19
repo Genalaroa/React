@@ -3,7 +3,7 @@ import Roca from '../../images/Ppt.png'
 import Tetris from '../../images/tetris.png'
 import Snake from '../../images/snake.png'
 import Laser from '../../images/lasership.png'
-import Contador from '../../Components/Count/ItemCount'
+import ItemCount from '../../Components/Count/ItemCount'
 import ItemList from './ItemList'
 
 import './ItemListContainer.css'
@@ -16,22 +16,22 @@ const ItemListContainer = (props) => {
       <span className='games col-3'>
         <img src={Roca} onClick={ItemList} />
         <h4>Piedra, Papel o Tijera</h4>
-        <Contador/>
+        <ItemCount/>
       </span>
       <span className='games col-3'>
         <img src={Tetris} onClick={props.construccion}/>
         <h4>Tetris</h4>
-        <Contador/>
+        <ItemCount/>
       </span>
       <span className='games col-3'>
         <img src={Snake} onClick={props.construccion} />
         <h4>Snake</h4>
-        <Contador/>
+        <ItemCount/>
       </span>
       <span className='games col-3'>
         <img src={Laser}  onClick={props.construccion}/>
         <h4>Laser ship</h4>
-        <Contador/>
+        <ItemCount/>
       </span>
     </div>
   )

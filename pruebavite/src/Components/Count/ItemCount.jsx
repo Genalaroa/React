@@ -1,24 +1,30 @@
 
-import { useState, useEffect } from "react"
+import { useState } from "react"
 // useState (retorna array con 2 posiciones) => [0, 1]
 
 import './ItemCount.css'
 
 
 
-const Contador = () =>{
 
-  const [count, setCount] = useState (1);
+
+const ItemCount = () =>{
+
+  const initial = 1
+  const stock=10
+
+  const [count, setCount] = useState (initial);
 
   const Aumentar = () =>{
-    setCount( count + 1)
+    setCount( count + 1) 
   }
 
   const Disminuir = () =>{
     setCount( count - 1)
   }
 
-  const Carrito = () =>{
+  const onAdd = () =>{
+    alert ('Se han agregado '+count+ ' articulos al carrito')
     console.log ('Se han agregado '+count+ ' articulos al carrito')
   }
   
@@ -26,12 +32,12 @@ const Contador = () =>{
 
   <div className="botones row col-2 offset-5 ">
     <div className="contador">
-      <button disabled={count <=1} onClick={Disminuir}>-</button>
+      <button disabled= {count <= initial} onClick={Disminuir}>-</button>
       <span className="count">{count}</span>
-      <button disabled={count >=10} onClick={Aumentar}>+</button>
+      <button disabled={count >= stock} onClick={Aumentar}>+</button>
     </div> 
     <div className="carrito">
-      <button onClick={Carrito}>Agregar al carrito</button>
+      <button className="onAdd" onClick={onAdd}>Agregar al carrito</button>
       </div>
   </div>
 
@@ -63,4 +69,4 @@ const Contador = () =>{
   
 }
 
-export default Contador
+export default ItemCount
