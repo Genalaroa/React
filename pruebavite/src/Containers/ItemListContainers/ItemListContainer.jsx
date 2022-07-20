@@ -14,24 +14,25 @@ const ItemListContainer = (props) => {
     <div className='juegos '>
 
       <span className='games col-3'>
-        <img src={Roca} onClick={ItemList} />
+        <img src={Roca} />
         <h4>Piedra, Papel o Tijera</h4>
-        <ItemCount/>
+        <ItemCount  initial={1} stock ={10} />
+        <ItemList />
       </span>
       <span className='games col-3'>
         <img src={Tetris} onClick={props.construccion}/>
         <h4>Tetris</h4>
-        <ItemCount/>
+        <ItemCount initial={1} stock ={10} />
       </span>
       <span className='games col-3'>
         <img src={Snake} onClick={props.construccion} />
         <h4>Snake</h4>
-        <ItemCount/>
+        <ItemCount initial={1} stock ={10} />
       </span>
       <span className='games col-3'>
         <img src={Laser}  onClick={props.construccion}/>
         <h4>Laser ship</h4>
-        <ItemCount/>
+        <ItemCount  initial={1} stock ={10} />
       </span>
     </div>
   )

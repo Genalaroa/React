@@ -26,7 +26,7 @@ function App() {
       
       <NavBar />
       <Titulo titulo= 'MUNDO ARCADE' subTitulo='Un torbellino de diversion'/>
-      <ItemListContainer/>
+      <ItemListContainer />
       
       
     </div>
