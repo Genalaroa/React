@@ -9,32 +9,36 @@ import ItemList from './ItemList'
 import './ItemListContainer.css'
 
 
-const ItemListContainer = (props) => {
+const ItemListContainer = ({greeting}) => {
   return (
+    
+    <>  
+    <h5 className='col-12'>{greeting} </h5>
+    
     <div className='juegos '>
-
       <span className='games col-3'>
         <img src={Roca} />
         <h4>Piedra, Papel o Tijera</h4>
         <ItemCount  initial={1} stock ={10} />
-        
       </span>
       <span className='games col-3'>
-        <img src={Tetris} onClick={props.construccion}/>
+        <img src={Tetris} />
         <h4>Tetris</h4>
         <ItemCount initial={1} stock ={10} />
       </span>
       <span className='games col-3'>
-        <img src={Snake} onClick={props.construccion} />
+        <img src={Snake}  />
         <h4>Snake</h4>
         <ItemCount initial={1} stock ={10} />
       </span>
       <span className='games col-3'>
-        <img src={Laser}  onClick={props.construccion}/>
+        <img src={Laser}  />
         <h4>Laser ship</h4>
         <ItemCount  initial={1} stock ={10} />
       </span>
     </div>
+    
+    </>
   )
 }
 

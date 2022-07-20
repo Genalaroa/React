@@ -1,5 +1,5 @@
 
-import { useState } from "react"
+import { useState, useEffect } from "react"
 // useState (retorna array con 2 posiciones) => [0, 1]
 
 import './ItemCount.css'

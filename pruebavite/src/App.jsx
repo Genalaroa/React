@@ -11,14 +11,15 @@ import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
-const construccion = (props) =>{
-  alert('En estos momentos estamos en construccion')
-};
-console.log (construccion)
+
 
 
 
 function App() {
+
+  const saludo = () => {
+    alert('Hola Mundo')
+  }
 
 
   return (
@@ -26,7 +27,7 @@ function App() {
       
       <NavBar />
       <Titulo titulo= 'MUNDO ARCADE' subTitulo='Un torbellino de diversion'/>
-      <ItemListContainer />
+      <ItemListContainer greeting='Bienvenidos a mundo arcade. Una plataforma para encontrar juegos de toda la vida.' />
       
       
     </div>
