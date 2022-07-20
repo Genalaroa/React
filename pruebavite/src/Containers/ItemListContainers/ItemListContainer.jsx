@@ -17,7 +17,7 @@ const ItemListContainer = (props) => {
         <img src={Roca} />
         <h4>Piedra, Papel o Tijera</h4>
         <ItemCount  initial={1} stock ={10} />
-        <ItemList />
+        
       </span>
       <span className='games col-3'>
         <img src={Tetris} onClick={props.construccion}/>

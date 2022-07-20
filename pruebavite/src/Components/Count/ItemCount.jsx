@@ -30,9 +30,9 @@ const ItemCount = ({initial, stock }) =>{
 
   <div className="botones row col-2 offset-5 ">
     <div className="contador">
-      <button disabled= {count <= (initial)} onClick={Disminuir}>-</button>
+      <button disabled= {count <= initial} onClick={Disminuir}>-</button>
       <span className="count">{count}</span>
-      <button disabled={count >= (stock)} onClick={Aumentar}>+</button>
+      <button disabled={count >= stock} onClick={Aumentar}>+</button>
     </div> 
     <div className="carrito">
       <button className="onAdd" onClick={onAdd}>Agregar al carrito</button>
