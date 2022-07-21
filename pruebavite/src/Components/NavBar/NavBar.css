@@ -5,6 +5,13 @@
   border: 5px  groove #BEBEC1 !important;
   margin-left: inherit !important;
 }
+.nav{
+  background-color: #434354;
+}
+
+.navBar{
+  background-color: #434354;
+}
 
 a{
   color: #FF4000 !important;
@@ -26,18 +33,18 @@ a.nav-link:hover{
   display: flex;
   margin: 0px;
   margin-left: 100px;
-
   border: none;
 }
 
 .shop{
   background-color: #434354;
+  margin-right: 60px;
   justify-content: right;
   align-items: flex-end;
-  width: 69px;
-  height: 61px;
+  width: 45px;
+  height: 45px;
   margin: 0px;
   border: none;
-  margin-top: -61px;
+  margin-top: -56px;
 }
 

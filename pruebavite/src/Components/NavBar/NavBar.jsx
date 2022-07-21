@@ -15,7 +15,7 @@ const NavBar = (props) => {
         <Logotipo /> 
         </div>
 
-        <div>
+        <div className='navBar'>
         <ul className="nav justify-content-center col-6 offset-3">
         <li className="nav-item">
           <a className="nav-link" href="#"  onClick={props.construccion}>Piedra, papel o tijera</a>

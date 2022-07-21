@@ -1,15 +1,17 @@
 h5{
   color: white;
 }
-.juegos{
-  margin-top: 30px;
-  display: flex;
+
+.card{
+  width: 18rem;
+  color: white;
+  
 }
+
 
 img{
   width: 300px;
   height: 300px;
-  margin: 40px;
   border: #BEBEC1 10px double;
   text-align: center;
 }
