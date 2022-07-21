@@ -19,9 +19,26 @@ const ItemListContainer = ({greeting}) => {
     { id : 'Snk' , tittle: 'Snake', description : 'Debes seleccionar el arma vencedora según las siguientes reglas: La piedra aplasta la tijera, la tijera corta el papel y el papel envuelve la piedra', price : 5 , pictureURL : Snake },
     {  id : 'Tts' , tittle: 'Tetris', description : 'Debes seleccionar el arma vencedora según las siguientes reglas: La piedra aplasta la tijera, la tijera corta el papel y el papel envuelve la piedra', price : 5 , pictureURL : Tetris},
     {id : 'Lsh' , tittle: 'Laser ship', description : 'Debes seleccionar el arma vencedora según las siguientes reglas: La piedra aplasta la tijera, la tijera corta el papel y el papel envuelve la piedra', price : 5 , pictureURL : Laser },
-
-    
   ]
+
+  /* const getFetch = () =>{
+    fetch("/assets/Json/DATA.json")
+    .then (respuesta =>{
+      return respuesta.json ( )
+    })
+
+    .then (response => console.log(response.juegos))
+    .catch (err => console.log(err))
+
+  }
+
+  useEffect(() => {
+
+    getFetch()
+
+  }, [])*/ 
+    
+
 
   const task = new Promise((res, rej) => {
     
