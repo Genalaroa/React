@@ -8,7 +8,7 @@ import './ItemCount.css'
 
 
 
-const ItemCount = ({initial, stock }) =>{
+const ItemCount = ({initial, stock, onAdd}) =>{
 
 
   const [count, setCount] = useState (initial);
@@ -21,10 +21,6 @@ const ItemCount = ({initial, stock }) =>{
     setCount( count - 1)
   }
 
-  const onAdd = () =>{
-    alert ('Se han agregado '+count+ ' articulos al carrito')
-    console.log ('Se han agregado '+count+ ' articulos al carrito')
-  }
   
   return (
 
@@ -35,7 +31,7 @@ const ItemCount = ({initial, stock }) =>{
       <button disabled={count >= stock} onClick={Aumentar}>+</button>
     </div> 
     <div className="carrito">
-      <button className="onAdd" onClick={onAdd}>Agregar al carrito</button>
+      <button className="onAdd" onClick={() => {onAdd(count)}}>Agregar al carrito</button>
       </div>
   </div>
 

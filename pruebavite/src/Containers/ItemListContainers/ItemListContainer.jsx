@@ -10,6 +10,13 @@ import './ItemListContainer.css'
 
 
 const ItemListContainer = ({greeting}) => {
+
+  const onAdd = (count) =>{
+    alert ('Se han agregado '+count+ ' articulos al carrito')
+    console.log ('Se han agregado '+count+ ' articulos al carrito')
+  }
+  
+
   return (
     
     <>  
@@ -19,22 +26,22 @@ const ItemListContainer = ({greeting}) => {
       <span className='games col-3'>
         <img src={Roca} />
         <h4>Piedra, Papel o Tijera</h4>
-        <ItemCount  initial={1} stock ={10} />
+        <ItemCount  initial={1} stock ={10} onAdd={onAdd} />
       </span>
       <span className='games col-3'>
         <img src={Tetris} />
         <h4>Tetris</h4>
-        <ItemCount initial={1} stock ={10} />
+        <ItemCount initial={1} stock ={10} onAdd={onAdd}/>
       </span>
       <span className='games col-3'>
         <img src={Snake}  />
         <h4>Snake</h4>
-        <ItemCount initial={1} stock ={10} />
+        <ItemCount initial={1} stock ={10} onAdd={onAdd} />
       </span>
       <span className='games col-3'>
         <img src={Laser}  />
         <h4>Laser ship</h4>
-        <ItemCount  initial={1} stock ={10} />
+        <ItemCount  initial={1} stock ={10} onAdd={onAdd}/>
       </span>
     </div>
     
