@@ -21,25 +21,6 @@ const ItemListContainer = ({greeting}) => {
     {id : 'Lsh' , tittle: 'Laser ship', description : 'Debes seleccionar el arma vencedora según las siguientes reglas: La piedra aplasta la tijera, la tijera corta el papel y el papel envuelve la piedra', price : 5 , pictureURL : Laser },
   ]
 
-  /* const getFetch = () =>{
-    fetch("/assets/Json/DATA.json")
-    .then (respuesta =>{
-      return respuesta.json ( )
-    })
-
-    .then (response => console.log(response.juegos))
-    .catch (err => console.log(err))
-
-  }
-
-  useEffect(() => {
-
-    getFetch()
-
-  }, [])*/ 
-    
-
-
   const task = new Promise((res, rej) => {
     
 
@@ -64,10 +45,7 @@ const ItemListContainer = ({greeting}) => {
     <div>
       <h5 className='col-12'>{greeting} </h5>
       {loading ? <h1 style={{color: 'white'}}>Cargando...</h1> : 
-      <ItemList items={items}>
-        <ItemCount/>
-      </ItemList> 
-      
+      <ItemList items={items}/>      
       }
 
     </div>
